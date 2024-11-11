@@ -1,0 +1,41 @@
+section{
+ background-color: red;
+ background-image: url(../images/sunset.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 900px;
+ margin-top: 0;
+ margin-left: 0;
+}
+.sun{margin-left: 500px;
+position: relative;
+animation: mymove 20s infinite;}
+
+@keyframes mymove { 
+	from{ top: 100px;}
+	to{ top:210px; }
+ }
+.boat{ margin-left: 1000px;
+position: relative;
+animation-name:boat;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+
+@keyframes boat {
+	from{right: 10px;}
+	to{right: 1010px;}
+	
+}
+.birds{margin-top: -800px;
+position: relative;
+animation: birds 20s infinite;
+}
+
+@keyframes birds {
+	from{left: 0px;}
+	to{left: 1000px;}
+}
+
+
